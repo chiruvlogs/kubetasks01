@@ -1,7 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mongodb-service
+  name: mongo
   namespace: hubs
   labels:
-    app: mongo
+spec:
+  containers:
+    - name : mongo
+      image: mongo
