@@ -5,3 +5,4 @@ metadata:
   namespace: hubs
   labels:
     app: mongo
+  name: mongo
